@@ -1,24 +1,3 @@
-/*
- 1. Reset.css
- 2. navigation Styling
- 3. Hero section
- 4. hero-2 section
- 5. Features Section
- 6. Features Flex
- 7. Stats Section counter
- 8. Feature Single
- 9. Reviews Section
- 10. Pricing tables
- 11. Subscription Section and CTA
- 12. Footer and Scroll Top
- 13. Media Queries
- -----*/
-
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -336,8 +315,8 @@ body {
 	text-decoration: none !important;
   white-space: nowrap;
   cursor: pointer;
-	background-color: #387ed1;
-	background: #6d48e5;
+	background-color: #272727;
+	background: #d80f3b;
   color: #FFFFFF;
   border: 1px solid transparent !important;
   border-radius: 4px;
@@ -356,7 +335,7 @@ body {
 }
 
 .btn-action:focus, .btn-action:active {
-	background: #6d48e5;
+	background: #02e1ff;
 	color: #FFFFFF;
 	border: 1px solid transparent !important;
 	outline: none !important;
@@ -427,130 +406,6 @@ body {
 	border: 1px solid transparent !important;
 	outline: none !important;
 }
-
-/*------------------------------------------------
-------------- Hero Version 2 Styling -------------
--------------------------------------------------*/
-
-
-
-.hero-2 {
-	text-align: center;
-}
-
-.hero-2 .hero-content {
-		padding: 50px 0;
-}
-
-.hero-2 .hero-img {
-	border-radius: 24px;
-}
-
-
-.hero-2 .hero-img img {
-	border-radius: 10px;
-	box-shadow: 0px 0px 60px 0px rgba(0,0,0,.1);
-}
-
-.hero-2 .form-alt {
-	position: relative;
-	margin-top: 25px;
-}
-
-.hero-2 .chimp-form .mail {
-	position: relative;
-	background-color: #F9F9F9;
-  box-shadow: none;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  transition: all .3s;
-}
-
-.hero-2 .form-alt input {
-  color: #222222;
-  font-family: 'Montserrat';
-  padding: 0;
-  font-size: 13px;
-	font-weight: 500;
-	height: 45px;
-  border: 0;
-  border-radius: 4px;
-	background-color: #F3F3F3;
-  outline: none;
-  padding: 0 100px 0 20px;
-	box-shadow: 0 5px 30px rgba(255, 255, 255, 0.1);
-}
-
-.hero-2 .form-alt input:focus {
-	outline: none !important;
-	border-color: transparent;
-}
-
-.hero-2 .form-alt .submit-button {
-  height: 45px;
-  border: 0;
-  border-radius: 0 4px 4px 0;
-  margin-left: -25px;
-  padding: 0 25px 0 25px;
-	background: #6d48e5;
-	font-family: 'Montserrat';
-	font-size: 14px;
-	font-weight: 500;
-	text-transform: capitalize;
-	letter-spacing: 0;
-  color: #FFFFFF;
-	cursor: pointer;
-  outline: none;
-	box-shadow: 0 5px 30px rgba(255, 255, 255, 0.05);
-	-webkit-transition: 500ms;
-	-moz-transition: 500ms;
-	transition: 500ms;
-}
-
-
-.hero-2 #email-error {
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: -50%;
-	font-family: 'Montserrat';
-	font-size: 13px;
-	font-weight: 500;
-	color: #FF3333;
-}
-
-.hero-2 #response {
-	position: absolute;
-	left: 0;
-	bottom: -45%;
-	vertical-align: middle;
-	font-family: 'Montserrat';
-	font-size: 13px !important;
-	font-weight: 500;
-	color: #15ccbe;
-}
-
-.hero-2 #chimp-email-error {
-	position: absolute;
-	left: 0;
-	bottom: -45%;
-	vertical-align: middle;
-	font-family: 'Montserrat';
-	font-size: 13px;
-	font-weight: 500;
-	color: red;
-}
-
-.hero-2 .success-message {
-	color:#33cc33;
-	margin-top: 5px;
-}
-
-.hero-2 .form-note p {
-	font-size: 12px;
-}
-
 
 /*----------- Flex Features ------------*/
 
@@ -658,92 +513,13 @@ body {
 	order:1
 }
 
-/*---------------------------------------------
------------ Features Section Styles------------
----------------------------------------------*/
-
-.features {
-	padding: 100px 0;
-	background: #f6f6fd;
-}
-
-.features-intro {
-	margin-bottom: 50px;
-}
-
-.features-intro h2 {
-	font-size: 28px;
-	font-weight: 600;
-	color: #3a3a47;
-	line-height: 1.3;
-	margin-bottom: 10px;
-}
-
-.features-intro p {
-	font-size: 16px;
-  font-weight: 500;
-  line-height: 1.6;
-	letter-spacing: 0.01em;
-  color: #818198;
-	max-width: 630px;
-	margin: 0 auto;
-	margin-top: 15px;
-	margin-bottom: 15px;
-}
-
-
-.feature-list {
-	margin: 30px 10px;
-}
-
-.card-icon {
-	width: 65px;
-  height: 65px;
-  border-radius: 50%;
-	margin: 0 auto;
-  background: rgba(30, 166, 154, 0.08);
-	background: #ece7fe;
-  display: table;
-  text-align: center;
-}
-
-.card-img {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-}
-
-.card-img img {
-	vertical-align: middle;
-}
-
-.card-text {
-	margin-top: 25px;
-}
-
-.card-text h3 {
-	font-size: 21px;
-	font-weight: 500;
-	color: #364655;
-	margin-bottom: 15px;
-}
-
-.card-text p {
-	font-size: 15px;
-	font-weight: 500;
-	color: rgb(129, 129, 152);
-	line-height: 1.6;
-	max-width: 320px;
-	margin: 0 auto;
-}
-
 /*--------------------------------------
 --------- Stat Section Styling ---------
 --------------------------------------*/
 
 .yd-stats {
 	padding: 100px 0;
-	background: #6d48e5;
+	background: #eb2222;
 }
 
 .yd-stats .intro {
@@ -792,6 +568,13 @@ body {
 
 .counter-up h3 {
 	font-size: 42px;
+	font-weight: 700;
+	color: #6d48e5;
+	color: #FFFFFF;
+}
+
+.counter-up h4 {
+	font-size: 32px;
 	font-weight: 700;
 	color: #6d48e5;
 	color: #FFFFFF;
@@ -876,96 +659,103 @@ body {
 	margin: 0 auto;
 }
 
-/*---------------------------------------------------
--------------- Ar Feature Item Styling --------------
----------------------------------------------------*/
+/*---------------------------------------------
+----------- Features Section Styles------------
+---------------------------------------------*/
 
-	.ar-ft-single {
-		padding: 100px 0;
-	}
-
-	.ar-feature {
-		text-align: center;
-		display: block;
-		-webkit-box-align: center;
-		-ms-flex-align: center;
-		align-items: center;
-		overflow: hidden;
+.features {
+	padding: 100px 0;
+	background: #f6f6fd;
 }
 
-	.ar-feature .ar-list {
-		-webkit-box-flex: 1;
-		-ms-flex: 1 0 40%;
-		flex: 1 0 40%;
-		text-align: left;
-	}
+.features-intro {
+	margin-bottom: 50px;
+}
 
-	.ar-feature .ar-image {
-		-webkit-box-flex: 1;
-		-ms-flex: 1 0 60%;
-		flex: 1 0 60%;
-		margin-left: 0;
-	}
+.features-intro h2 {
+	font-size: 28px;
+	font-weight: 600;
+	color: #3a3a47;
+	line-height: 1.3;
+	margin-bottom: 10px;
+}
 
-	.ar-list ul {
-		list-style-type: none;
-		overflow: hidden;
-		margin-top: 0;
-	}
-
-	.ar-list ul li {
-		margin-bottom: 30px;
-		overflow: hidden;
-	}
-
-	.ar-feature .ar-icon {
-		float: left;
-		width: 15%;
-	}
-
-	.ar-feature .ar-icon img {
-		margin-top: 0;
-		vertical-align: middle;
-	}
-
-	.ar-feature .ar-text {
-		float: right;
-		width: 85%;
-	}
-
-	.ar-feature .ar-text h3 {
-		font-size: 18px;
-		color: #364655;
-	  font-weight: 500;
-	  line-height: 1.2;
-	  margin-bottom: 10px;
-	}
-
-	.ar-feature .ar-text p {
-		font-size: 15px;
-	  font-weight: 500;
-	  line-height: 1.6;
-	  color: #97a6b5;
-	}
+.features-intro p {
+	font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+	letter-spacing: 0.01em;
+  color: #818198;
+	max-width: 630px;
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
 
 
+.feature-list {
+	margin: 30px 10px;
+}
+
+.card-icon {
+	width: 65px;
+  height: 65px;
+  border-radius: 50%;
+	margin: 0 auto;
+  background: rgba(30, 166, 154, 0.08);
+	background: #ece7fe;
+  display: table;
+  text-align: center;
+}
+
+.card-img {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.card-img img {
+	vertical-align: middle;
+}
+
+.card-text {
+	margin-top: 25px;
+}
+
+.card-text h3 {
+	font-size: 21px;
+	font-weight: 500;
+	color: #364655;
+	margin-bottom: 15px;
+}
+
+.card-text p {
+	font-size: 15px;
+	font-weight: 500;
+	color: rgb(129, 129, 152);
+	line-height: 1.6;
+	max-width: 320px;
+	margin: 0 auto;
+}
 
 
-	/* ----- Pricing Tables Styling Starts ----- */
+	/* ----- Prizes Tables Styling Starts ----- */
 
-	.pricing-section {
+	.prizes-section {
 		width: 100%;
 		height: 100%;
 		padding-top: 100px;
 		padding-bottom: 100px;
-		background: #FFFFFF;
+		background: rgba(30, 166, 154, 0.1);
+		background: #f8faff;
+		background: #f6f6fd;
 	}
 
-	.pricing-intro {
+	.prizes-intro {
 		padding-bottom: 30px;
 	}
 
-	.pricing-intro h1 {
+	.prizes-intro h1 {
 		font-size: 32px;
 		color: #364655;
 		font-weight: 600;
@@ -974,7 +764,7 @@ body {
 	}
 
 
-	.pricing-intro p {
+	.prizes-intro p {
 		font-size: 16px;
 		color: #97a6b5;
 		font-weight: 500;
@@ -984,11 +774,11 @@ body {
 		margin-bottom: 50px;
 	}
 
-	.pricing-details {
+	.prizes-details {
 		padding: 50px 0 0 0;
 	}
 
-	.pricing-section .table-left, .pricing-section .table-right {
+	.prizes-section .table-left, .prizes-section .table-right {
 		padding: 20px 20px 50px 20px;
 		margin: 0 auto;
 		margin-bottom: 30px;
@@ -1009,10 +799,10 @@ body {
 		margin: 0 auto;
 	}
 
-	.table-left .pricing-details span, .table-right .pricing-details span {
+	.table-left .prizes-details span, .table-right .prizes-details span {
 		display: block;
 		font-family: 'Montserrat';
-		font-size: 32px;
+		font-size: 18px;
 		font-weight: 600;
 		color: #364655;
 		opacity: 0.7;
@@ -1020,27 +810,27 @@ body {
 	}
 
 
-	.table-left .pricing-details h2, .table-right .pricing-details h2 {
+	.table-left .prizes-details h2, .table-right .prizes-details h2 {
 		font-size: 21px;
 		font-weight: 600;
 		color: #6d48e5;
 		margin-bottom: 30px;
 	}
 
-	.table-left .pricing-details p, .table-right .pricing-details p {
+	.table-left .prizes-details p, .table-right .prizes-details p {
 		font-size: 16px;
 		font-weight: 500;
 		color: #364655;
 		line-height: 1.4;
 	}
 
-	.table-left .pricing-details ul, .table-right .pricing-details ul {
+	.table-left .prizes-details ul, .table-right .prizes-details ul {
 		margin-top: 30px;
 		margin-bottom: 50px;
 		padding: 0;
 	}
 
-	.table-left .pricing-details li, .table-right .pricing-details li {
+	.table-left .prizes-details li, .table-right .prizes-details li {
 		font-family: 'Montserrat';
 		font-size: 16px;
 		font-weight: 500;
@@ -1050,7 +840,7 @@ body {
 		margin-bottom: 10px;
 	}
 
-	.pricing-section .table-left:hover, .pricing-section .table-right:hover {
+	.prizes-section .table-left:hover, .prizes-section .table-right:hover {
 		box-shadow: 0 0 80px 0 rgba(0, 0, 0, 0.1);
 		-webkit-transition: 0.3s;
 		-moz-transition: 0.3s;
@@ -1058,209 +848,17 @@ body {
 		transition: 0.3s;
 	}
 
-	.pricing-section .table-left, .pricing-section .table-right {
+	.prizes-section .table-left, .prizes-section .table-right {
 		margin-top: 20px;
 	}
 
-	.pricing-section .table-center {
+	.prizes-section .table-center {
 		margin-top: 0;
 	}
-
-/*------------------------------------------------
----------- Ar Review Section Styling -------------
-------------------------------------------------*/
-
-	.ar-reviews {
-		padding: 5%;
-		background: url(../images/bg.jpg) no-repeat center center;
-		background: #f6f6fd;
-	}
-
-	.ar-reviews .ar-box {
-		background: #6d48e5;
-		display: block;
-		padding: 50px;
-	}
-
-
-	.ar-box .ar-right {
-		margin-top: 50px;
-	}
-
-	.ar-box .ar-left h2 {
-		font-size: 24px;
-		font-weight: 600;
-		color: #FFF;
-		line-height: 1.6;
-	}
-
-	.ar-box .ar-right p {
-		font-size: 14px;
-		font-weight: 400;
-		color: #FFF;
-		line-height: 1.7rem;
-		text-align: left;
-		margin-bottom: 1.5rem;
-	}
-
-	.ar-box .ar-left .btn-action {
-		background: #FFF;
-    color: #6d48e5;
-    letter-spacing: 1px;
-    text-transform: capitalize;
-	}
-
-/*----------------------------------------------
------------- Review Section Styling ------------
-----------------------------------------------*/
-
-
-.yd-reviews {
-	padding: 100px 0 100px 0;
-	background: #FFFFFF;
-	background: rgba(30, 166, 154, 0.08);
-	background: #f6f6fd;
-	background-size: cover;
-}
-
-.yd-reviews .intro {
-	padding: 0;
-	max-width: 600px;
-	margin: 0 auto;
-	margin-bottom: 75px;
-}
-
-.yd-reviews .intro h1 {
-	font-size: 28px;
-	font-weight: 700;
-  color: #364655;
-  line-height: 1.2;
-  margin-bottom: 20px;
-}
-
-.yd-reviews .intro p {
-	font-size: 16px;
-  font-weight: 500;
-  color: rgb(129, 129, 152);
-  line-height: 1.6;
-  margin: 0px auto;
-}
-
-.yd-reviews .intro p:nth-child(4) {
-	font-size: 13px;
-}
-
-.yd-reviews .intro a {
-	color: #0000FF;
-	text-decoration: none;
-}
-
-
-.yd-reviews .card-single {
-  	display: block;
-}
-
-.yd-reviews .card-single .review-text {
-	-webkit-box-flex: 1;
-  -ms-flex: 1 0 50%;
-  flex: 1 0 50%;
-	background: #6d48e5;
-	padding: 60px;
-	text-align: left;
-}
-
-.yd-reviews .card-single .review-attribution {
-	-webkit-box-flex: 1;
-  -ms-flex: 1 0 50%;
-  flex: 1 0 50%;
-	padding: 60px;
-	background: #FFFFFF;
-}
-
-
-.yd-reviews .card-single h1 {
-	font-size: 18px;
-	font-weight: 500;
-	color: #FFF;
-	line-height: 1.5;
-	letter-spacing: 0;
-	margin-bottom: 0;
-}
-
-.yd-reviews .card-single .review-attribution i {
-	font-size: 13px;
-	color: #ffd700;
-}
-
-.yd-reviews .card-single .review-attribution h2 {
-	font-size: 15px;
-	font-weight: 600;
-	color: #556577;
-	line-height: 1.4;
-	margin-top: 5px;
-}
-
-.yd-reviews .card-single .review-attribution h6 {
-	font-size: 12px;
-	font-weight: 500;
-	color: #97a6b5;
-	line-height: 1.4;
-}
-
-.yd-reviews .card-single .review-attribution a {
-	font-family: 'Montserrat';
-	font-size: 12px;
-	font-weight: 500;
-	color: #6d48e5;
-	position: relative;
-	display: inline-block;
-	text-decoration: none;
-}
-
-.yd-reviews .card-single .review-attribution a:before {
-	content: "";
-	position: absolute;
-  width: 100%;
-  height: 1px;
-  bottom: -3px;
-  left: 0;
-  background-color: #6d48e5;
-  visibility: hidden;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.2s ease-in-out 0s;
-  transition: all 0.2s ease-in-out 0s;
-}
-
-.yd-reviews .card-single .review-attribution a:hover:before {
-	visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
-}
-
-
-.yd-reviews .card-single .review-attribution .review-img {
-	text-align: center;
-	margin-bottom: 20px;
-}
-
-.yd-reviews .card-single .review-attribution img {
-	height: 80px;
-	width: 80px;
-	margin: 0 auto;
-}
-
-
-/*-------------------------------------------------------
--------------- Subscription Form Styling ----------------
--------------------------------------------------------*/
 
 
 .cta-sm {
 	padding: 100px 0 100px 0;
-	background: rgba(30, 166, 154, 0.1);
-	background: #f8faff;
-	background: #f6f6fd;
 }
 
 .cta-sm .cta-content {
@@ -1280,118 +878,7 @@ body {
 	font-weight: 400;
 	color: #aeaeae;
 	letter-spacing: 1px;
-	margin-bottom: 15px;
-}
-
-.form {
-	position: relative;
-	max-width: 420px;
-	margin: 0 auto;
-	margin-top: 30px;
-}
-
-.chimp-form .mail {
-	position: relative;
-	background-color: #FFFFFF;
-  box-shadow: none;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  transition: all .3s;
-}
-
-.form input {
-	display: block;
-	width: 100%;
-	margin: 0 auto;
-  color: #6d48e5;
-  font-family: 'Montserrat';
-  padding: 0;
-  font-size: 13px;
-	font-weight: 500;
-	height: 50px;
-  border: 1px solid #6d48e5;
-  border-radius: 4px;
-	background-color: #FFFFFF;
-  outline: none;
-  padding: 0 100px 0 20px;
-	box-shadow: 0 5px 30px rgba(255, 255, 255, 0.1);
-}
-
-.form input:focus {
-	outline: none !important;
-	background: #FFFFFF;
-	border: 1px solid #6d48e5;
-}
-
-.form .submit-button {
-  height: 50px;
-	width: 100%;
-  border: 0;
-  border-radius: 4px;
-  margin: 0 auto;
-	margin: 15px 0;
-  padding: 0 25px 0 25px;
-	background: #6d48e5;
-	font-family: 'Montserrat';
-	font-size: 14px;
-	font-weight: 500;
-	text-transform: capitalize;
-	letter-spacing: 0;
-  color: #FFFFFF;
-	cursor: pointer;
-  outline: none;
-	box-shadow: 0 2px 5px 0 rgba(0, 0, 100,.2);
-	-webkit-transition: 300ms;
-	-moz-transition: 300ms;
-	transition: 300ms;
-}
-
-.form .submit-button:hover {
-	box-shadow: 0 5px 25px 0 rgba(0, 0, 100,.2);
-}
-
-.form .submit-button:focus, .form .submit-button:active {
-	background: #6d48e5;
-}
-
-#email-error {
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: -50%;
-	font-family: 'Montserrat';
-	font-size: 13px;
-	font-weight: 500;
-	color: #FF3333;
-}
-
-#response {
-	position: absolute;
-	left: 0;
-	bottom: -45%;
-	vertical-align: middle;
-	font-family: 'Montserrat';
-	font-size: 13px !important;
-	font-weight: 500;
-	color: #15ccbe;
-}
-
-#chimp-email-error {
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: -45%;
-	vertical-align: middle;
-	font-family: 'Montserrat';
-	font-size: 13px;
-	font-weight: 500;
-	color: red;
-}
-
-.success-message {
-	color:#33cc33;
-	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .form-note p {
@@ -1407,8 +894,6 @@ body {
 
 .footer-sm {
 	padding: 30px 0;
-	background: rgba(30, 166, 154, 0.1);
-	background: #f6f6fd;
 	text-align: center;
 }
 
@@ -1420,7 +905,7 @@ body {
 	font-family: 'Montserrat';
 	font-size: 18px;
 	font-weight: 600;
-	color: #6d48e5;
+	color: #7ec544;
 	letter-spacing: 0;
 	display: block;
 	margin-bottom: 15px;
@@ -1502,7 +987,7 @@ body {
 	display: none;
 	width: 45px;
 	height: 45px;
-	background: #6d48e5;
+	background: #f1e25a;
 	color: #f2f2f0;
 	border-radius: 50%;
 	display: table;
@@ -1519,7 +1004,7 @@ body {
 	font-family: 'Montserrat';
 	font-size: 12px;
 	font-weight: 700;
-	color: #FFFFFF;
+	color: rgb(0, 0, 0);
 	text-decoration: none;
 	-webkit-transition: 200ms;
 	-moz-transition: 200ms;
@@ -1528,14 +1013,14 @@ body {
 }
 
 .back-to-top:hover {
-  color: #FFFFFF;
+  color: rgb(0, 0, 0);
 	text-decoration: none;
 	font-size: 13px;
 }
 
 
 .back-to-top:focus {
-  color: #FFFFFF;
+  color: rgb(0, 0, 0);
 }
 
 
