@@ -1,5 +1,3 @@
-// Custom Scripts for Array Template //
-
 jQuery(function($) {
     "use strict";
 
@@ -116,27 +114,5 @@ $('.counter').counterUp({
         });
       }, 3000);
     });
-
-
-/*----- Subscription Form ----- */
-
-$(document).ready(function() {
-     // jQuery Validation
-     $("#chimp-form").validate({
-         // if valid, post data via AJAX
-         submitHandler: function(form) {
-             $.post("assets/php/subscribe.php", { email: $("#chimp-email").val() }, function(data) {
-                 $('#response').html(data);
-             });
-         },
-         // all fields are required
-         rules: {
-             email: {
-                 required: true,
-                 email: true
-             }
-         }
-     });
- });
 
 });
