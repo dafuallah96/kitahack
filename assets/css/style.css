@@ -527,7 +527,7 @@ body {
 }
 
 .yd-stats .intro h2 {
-	font-size: 28px;
+	font-size: 38px;
 	font-weight: 700;
 	color: #3a3a47;
 	color: #FFFFFF;
@@ -665,7 +665,7 @@ body {
 
 .features {
 	padding: 100px 0;
-	background: #f6f6fd;
+	background: rgba(72, 255, 0, 0.08);
 }
 
 .features-intro {
@@ -675,7 +675,7 @@ body {
 .features-intro h2 {
 	font-size: 28px;
 	font-weight: 600;
-	color: #3a3a47;
+	color: #364655;
 	line-height: 1.3;
 	margin-bottom: 10px;
 }
@@ -685,7 +685,7 @@ body {
   font-weight: 500;
   line-height: 1.6;
 	letter-spacing: 0.01em;
-  color: #818198;
+	color: #97a6b5;
 	max-width: 630px;
 	margin: 0 auto;
 	margin-top: 15px;
@@ -732,7 +732,7 @@ body {
 .card-text p {
 	font-size: 15px;
 	font-weight: 500;
-	color: rgb(129, 129, 152);
+	color: #97a6b5;
 	line-height: 1.6;
 	max-width: 320px;
 	margin: 0 auto;
@@ -746,9 +746,6 @@ body {
 		height: 100%;
 		padding-top: 100px;
 		padding-bottom: 100px;
-		background: rgba(30, 166, 154, 0.1);
-		background: #f8faff;
-		background: #f6f6fd;
 	}
 
 	.prizes-intro {
@@ -859,6 +856,7 @@ body {
 
 .cta-sm {
 	padding: 100px 0 100px 0;
+	background: rgba(255, 230, 0, 0.08);
 }
 
 .cta-sm .cta-content {
@@ -895,6 +893,7 @@ body {
 .footer-sm {
 	padding: 30px 0;
 	text-align: center;
+	background: rgba(255, 230, 0, 0.08);
 }
 
 .footer-sm .col-md-4:nth-child(even) {
